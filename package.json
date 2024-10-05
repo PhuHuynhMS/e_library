@@ -1,0 +1,35 @@
+{
+  "name": "e_library",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhuHuynhMS/e_library.git"
+  },
+  "keywords": [
+    "nodejs",
+    "vue",
+    "project"
+  ],
+  "author": "Thien Phu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhuHuynhMS/e_library/issues"
+  },
+  "homepage": "https://github.com/PhuHuynhMS/e_library#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+}
